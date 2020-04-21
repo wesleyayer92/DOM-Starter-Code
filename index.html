@@ -32,19 +32,9 @@
         <label>Another Noun:
             <input type="text" id="noun2Input" value="" />
         </label>
-        <button type="button" id="clickMe">Click Me</button>
+        <button type="submit" id="clickMe">Click Me</button>
     </form>
+    <script src="./script.js"></script>
 </body>
-<script>
-    const myButton = document.getElementById("clickMe");
-    const noun1 = document.getElementById("noun1");
-    const noun1Input = document.getElementById("noun1Input");
-
-    myButton.addEventListener('click', function (e) {
-        e.preventDefault();
-        
-        noun1.innerHTML = noun1Input.value;
-    });
-</script>
 
 </html>
